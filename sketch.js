@@ -1,5 +1,5 @@
 let can;let t;let st;
-let ax,rule;let x1;
+let ax=[];let rule=[];let x1;
 let xm,ym;let len,ang;
 
 function setup() {

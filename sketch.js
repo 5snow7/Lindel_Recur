@@ -17,7 +17,7 @@ xm=50;ym=450;
 
 function draw() {
 //clear();
-background(250,200,0);
+background(250,150,0);
 
 t.set1(400,400,0);
 for(let j=3;j<12;j++){t.poly(50,j);}

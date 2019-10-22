@@ -1,0 +1,26 @@
+#par1{ border-width:6px;border-style:ridge;
+        border-color: rgb(50,150,250);
+		background-color:rgb(200,50,50);
+        padding: 5px 5px 5px 5px;//height: 30px;
+		position:absolute;left:950px;top:260px;
+		width:250px;
+      }
+	  
+	   body{
+			margin:0;
+			padding:20px;
+			overflow: hidden;
+	  
+	  }
+   canvas{
+		
+	  }
+
+  .bdd{ border-width:10px;border-style:dashed;border-color: rgb(250,0,250);
+        padding: 5px 5px 5px 5px;//height: 30px;
+      }
+  .inpbdd{ border-width:6px;border-style:ridge;
+        border-color: rgb(50,150,250);
+		background-color:rgb(200,50,50);
+        padding: 5px 5px 5px 5px;//height: 30px;
+      }

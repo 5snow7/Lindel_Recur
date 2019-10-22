@@ -18,14 +18,13 @@ xm=50;ym=450;
 function draw() {
 //clear();
 background(250,150,0);
+text("length is "+len+" angle is "+ang,10,20);
+text("rule[0] is "+rule[0],20,40);
 
-t.set1(400,400,0);
-//for(let j=3;j<12;j++){t.poly(50,j);}
 
-t.set1(50,350,0);
 
 t.set1(xm,ym,0);
-t.sketch(len,ang,lindel(st,1));
+t.sketch(len,ang,lindel(st,0));
 text(st,50,200);
 //text(key,50+10,100);j++;
 
@@ -34,7 +33,7 @@ text(st,50,200);
 function keyTyped(){
 if(key=="r"){
 st=lindel(st,1);
-x1++;if(x1>4){x1=0;st=rule[1];}
+x1++;if(x1>2){x1=0;st=rule[0];}
 }
 }
 

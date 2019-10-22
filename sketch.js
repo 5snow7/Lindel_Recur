@@ -20,7 +20,7 @@ function draw() {
 background(250,150,0);
 
 t.set1(400,400,0);
-for(let j=3;j<12;j++){t.poly(50,j);}
+//for(let j=3;j<12;j++){t.poly(50,j);}
 
 t.set1(50,350,0);
 
@@ -34,7 +34,7 @@ text(st,50,200);
 function keyTyped(){
 if(key=="r"){
 st=lindel(st,1);
-x1++;if(x1>3){x1=0;st=rule[1];}
+x1++;if(x1>4){x1=0;st=rule[1];}
 }
 }
 
